@@ -668,82 +668,81 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [175];
+	this.actionFrames = [158];
 	// timeline functions:
-	this.frame_175 = function() {
+	this.frame_158 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(175).call(this.frame_175).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(158).call(this.frame_158).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,2,0,3).p("A3WzcMAutAAAMAAAAm5MgutAAAg");
 	this.shape.setTransform(150,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(159));
 
 	// CTA
 	this.instance = new lib.CTA();
-	this.instance.setTransform(243.05,128.7);
+	this.instance.setTransform(243.05,116.7);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(165).to({scaleX:1.16,scaleY:1.16},2).to({scaleX:1,scaleY:1},6).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(148).to({scaleX:1.16,scaleY:1.16},2).to({scaleX:1,scaleY:1},6).wait(3));
 
 	// LOGO
 	this.instance_1 = new lib.LOGO();
 	this.instance_1.setTransform(11.05,22.05,0.14,0.14,0,0,0,0.4,0.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(159));
 
 	// HEAD1
 	this.instance_2 = new lib.HEAD1();
-	this.instance_2.setTransform(346.2,208.1,1,1,0,0,0,446.2,208.1);
+	this.instance_2.setTransform(346.2,204.1,1,1,0,0,0,446.2,208.1);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1).to({_off:false},0).to({x:446.2,alpha:1},19,cjs.Ease.quadOut).wait(156));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1).to({_off:false},0).to({x:446.2,alpha:1},19,cjs.Ease.quadOut).wait(139));
 
 	// HEAD2
 	this.instance_3 = new lib.HEAD2();
-	this.instance_3.setTransform(-22.7,29.2,1,1,0,0,0,77.3,29.2);
+	this.instance_3.setTransform(77.3,25.2,1,1,0,0,0,77.3,29.2);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(59).to({_off:false},0).to({x:77.3,alpha:1},19,cjs.Ease.quadOut).wait(98));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(59).to({_off:false},0).to({alpha:1},19,cjs.Ease.quadOut).wait(81));
 
 	// CAMPAIGN
 	this.instance_4 = new lib.CAMPAIGN();
-	this.instance_4.setTransform(-65,154.7,1,1,0,0,0,105,23.6);
+	this.instance_4.setTransform(-65,142.7,1,1,0,0,0,105,23.6);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(131).to({_off:false},0).to({x:123.5},16,cjs.Ease.quintOut).wait(29));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(114).to({_off:false},0).to({x:123.5},16,cjs.Ease.quintOut).wait(29));
 
 	// ALERT
 	this.instance_5 = new lib.ALERT();
-	this.instance_5.setTransform(-265.95,238.5,1,1,0,0,0,0,-10.5);
+	this.instance_5.setTransform(-51.25,139.5,1,1,0,0,0,0,-10.5);
 	this.instance_5.alpha = 0.3008;
-	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(114).to({_off:false},0).to({x:-51.25},16,cjs.Ease.quintOut).wait(46));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(159));
 
 	// PIC
 	this.instance_6 = new lib._300x250Buildings();
 	this.instance_6.setTransform(0,150,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(159));
 
 	// BKGD
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#1F5FA3").s().p("A3bLuIAA3bMAu3AAAIAAXbg");
 	this.shape_1.setTransform(150,75);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(159));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-474.7,124.5,782.2,126);
+p.nominalBounds = new cjs.Rectangle(-260,121,567.5,129.5);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
