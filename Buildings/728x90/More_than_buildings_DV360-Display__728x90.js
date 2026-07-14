@@ -704,14 +704,14 @@ if (reversed == null) { reversed = false; }
 
 	// BKGD PIC cover
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#1F5FA3").s().p("ARKHCIAAuDIYsAAIAAODgEgp1AHCIAAuDIYsAAIAAODg");
-	this.shape_1.setTransform(459.825,45);
+	this.shape_1.graphics.f("#1F5FA3").s().p("AsVHCIAAuDIYrAAIAAODg");
+	this.shape_1.setTransform(648.65,45);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(159));
 
 	// PIC
 	this.instance_5 = new lib._300x250Buildings();
-	this.instance_5.setTransform(323,0,0.45,0.45);
+	this.instance_5.setTransform(350,0,0.45,0.45);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(159));
 
