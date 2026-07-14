@@ -699,7 +699,7 @@ if (reversed == null) { reversed = false; }
 
 	// PIC
 	this.instance_5 = new lib._300x600Buildings();
-	this.instance_5.setTransform(0,184,0.5,0.5);
+	this.instance_5.setTransform(-114,184,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(159));
 
